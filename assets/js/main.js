@@ -11,3 +11,15 @@ const radioTwo = document.getElementById('radioTwo');
 spanTwo.addEventListener('click', function () {
     radioTwo.checked = true;
 })
+
+
+function verificarCampo() {
+
+    const valorForm = document.getElementById('formNumber').value;
+
+    if (valorForm === '') {
+        alert(`Você deve preencher o campo primeiro`);
+    } else {
+
+    }
+}
