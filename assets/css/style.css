@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+.hidden {
+    display: none;
+  }
+
 body {
     background-color: #252525;
     padding: 0px;
