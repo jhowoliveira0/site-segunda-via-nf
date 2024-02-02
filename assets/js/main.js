@@ -29,7 +29,6 @@ function verificarCampo() {
 
     if (valorFormOne === '' && valorFormTwo === '') {
         alert(`Você deve preencher o campo primeiro`);
-    } else {
-
-    }
+    } 
+    
 }

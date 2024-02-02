@@ -79,9 +79,8 @@ span:hover {
 }
 
 .left-container {
-    padding: 2px 14px 2px 14px;
+    padding: 2px 14px 30px 14px;
     background-color: #3880ff;
-    height: 12rem;
     width: auto;
     box-sizing: border-box;
     text-align: center;
@@ -101,7 +100,7 @@ span:hover {
     .left-container {
         text-align: left;
         width: 480px;
-        height: 100vh;
+        height: auto;
         padding-top: 100px;
     }
 
@@ -135,7 +134,7 @@ span:hover {
     .left-container {
         text-align: left;
         width: 600px;
-        height: 100vh;
+        height: auto;
         padding: 150px 50px 0px 50px;
     }
 
