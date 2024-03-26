@@ -62,7 +62,7 @@ span:hover {
     background-color: #494949;
 }
 
-[type="number"] {
+[type="text"] {
     margin-top: -10px;
     background-color: #2d5aac00;
     padding-left: 10px;
@@ -119,7 +119,7 @@ span:hover {
         width: 200px;
     }
 
-    [type="number"] {
+    [type="text"] {
         margin-top: 20px;
         width: 30rem;
     }

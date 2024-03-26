@@ -7,7 +7,7 @@
     <title>Segunda Via - NF</title>
 
     <!--CSS Style-->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
@@ -24,12 +24,14 @@
             <form>
                 <span id="spanOne"><input type="radio" name="choose" value="CPF" id="radioOne" checked/><label for="radioOne">CPF/CNPJ</label></span>
                 <span id="spanTwo"><input type="radio" name="choose" value="ORDEM" id="radioTwo" /><label for="radioTwo">Número da Ordem de Serviço</label></span><br>
-                <input type="number" class="" id="formCpf"/>
-                <input type="number" class="hidden" id="formNumber"/> <br>
+                <input type="text" minlength="11" class="" id="formCpf" placeholder=" " />
+                <input type="text" class="hidden" id="formNumber" placeholder=" " /> <br>
                 <button type="submit" onclick="verificarCampo()"><strong>Confirmar</strong></button>
             </form>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/jquery.inputmask.min.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 
